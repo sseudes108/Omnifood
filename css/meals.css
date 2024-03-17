@@ -1,0 +1,25 @@
+.SectionMeals{
+    padding: 9.6rem 0;
+}
+
+.MealImg{
+    width: 100%;
+}
+
+.MealName{
+    font-size: 2.4rem;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 3.2rem;
+}
+
+.MealAtributes{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+
+.MealAtribute{
+    font-size: 1.8rem;
+}
