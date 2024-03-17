@@ -1,0 +1,51 @@
+.SectionHowItWorks{
+    padding: 9.6rem 0;
+}
+
+.StepNumber{
+    font-size: 9.8rem;
+    font-weight: 600;
+    color: #ccc;
+    margin-bottom: 1.2rem;
+}
+
+.StepDescription{
+    font-size: 1.8rem;
+    line-height: 1.8;
+}
+.StepImgBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.StepImgBox::after,
+.StepImgBox::before{
+    content: "";
+    display: block;
+
+    border-radius: 50%;
+
+    position: absolute;
+
+    z-index: -1;
+}
+.StepImgBox::before{
+    background-color: #fdf2e9;
+    width: 60%;
+    padding-bottom: 60%;
+
+    /* 
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+.StepImgBox::after{
+    background-color: #f0b27a;
+    width: 50%;
+    padding-bottom: 50%;
+}
+
+.StepImg{
+    width: 33%;
+}
