@@ -74,28 +74,9 @@
     color: #e67e22;
 }
 
-.List{
-    list-style: none;
-    font-size: 1.8rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1.6rem;
-}
-.ListItem{
-    font-size: 1.8rem;
-    display: flex;
-    align-items: center;
-    gap: 1.6rem;
-}
-.ListIcon{
-    height: 3rem;
-    width: 3rem;
-    color:#e67e22
-}
-
 .Diets{
     border-radius: 12px;
-    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+    /* box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075); */
 }
 
 .AllRecipes{

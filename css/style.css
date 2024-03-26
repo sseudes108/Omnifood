@@ -165,6 +165,25 @@ body{
     align-items: center;
 }
 
+.List{
+    list-style: none;
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+.ListItem{
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
+.ListIcon{
+    height: 3rem;
+    width: 3rem;
+    color:#e67e22
+}
+
 /* Helper Classes */
 .MarginRightSmall{
     margin-right: 1.6rem !important;
