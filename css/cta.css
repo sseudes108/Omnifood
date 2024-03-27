@@ -1,0 +1,29 @@
+.SectionCTA{
+    padding: 9.6rem 0;
+}
+
+.CTA{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* background-color: #e67e22; */
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.2);
+    border-radius: 11px;
+
+    background-image: linear-gradient(to right bottom, #f0b27a, #e67e22);
+    overflow: hidden;
+
+    height: 50rem;
+}
+
+.CTATextBox{
+    
+}
+
+.CTAImgBox{
+    background-image: 
+        linear-gradient(to right bottom, 
+        rgba(240, 177, 122, 0.42), 
+        rgba(230, 125, 34, 0.81)),
+        url("../img/eating.jpg");
+    background-size: cover;
+}
