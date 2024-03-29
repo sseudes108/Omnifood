@@ -97,7 +97,7 @@ body{
     letter-spacing: 0.75px;
 }
 
-.Button:link, .Button:visited{
+.Button:link, .Button:visited, Button{
     display: inline-block;
 
     border-radius: 9px;
@@ -106,6 +106,10 @@ body{
     font-size: 2rem;
     font-weight: 600;
     padding: 1.6rem 3.2rem;
+
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
 
     transition: all 0.3s ease-in-out;
 }
@@ -167,6 +171,9 @@ body{
 .Grid4Cols{
     grid-template-columns: repeat(4, 1fr);
 }
+.Grid5Cols{
+    grid-template-columns: repeat(5, 1fr);
+}
 .GridCenterVert{
     align-items: center;
 }
@@ -199,4 +206,14 @@ body{
 }
 .CenterText{
     text-align: center;
+}
+
+*:focus{
+    outline: none;
+    box-shadow: 0 0 0 0.4rem hsla(28, 80%, 52%, 0.42);
+}
+
+.CTA *:focus{
+    outline: none;
+    box-shadow: 0 0 0 0.4rem hsla(26, 84%, 95%, 0.42);
 }

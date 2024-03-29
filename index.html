@@ -25,12 +25,15 @@
     <link rel="stylesheet" href="css/testimonials.css">
     <link rel="stylesheet" href="css/pricing.css">
     <link rel="stylesheet" href="css/cta.css">
+    <link rel="stylesheet" href="css/footer.css">
 
 
 </head>
 <body>
     <header class="Header">
-        <img class="Logo" src="img/omnifood-logo.png" alt="Omnifood Logo"/>
+        <a href="#"></a>
+            <img class="Logo" src="img/omnifood-logo.png" alt="Omnifood Logo"/>
+        </a>
         <nav class="MainNav">
             <ul class="MainNavList">
                 <li><a class="MainNavlink" href="#">Section 1</a></li>
@@ -377,13 +380,77 @@
         <section class="SectionCTA">
             <div class="Container">
                 <div class="CTA">
-                    <div class="CTATextBox"></div>
+                    <div class="CTATextBox">
+                        <h2 class="HeadingSecundary">Get your first meal for free!</h2>
+                        <p class="CTAText">Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or pause anytime. And the first meal is on us!</p>
+
+                        <form class="CTAForm">
+                            <div>
+                                <label for="fullName">Full Name:</label>
+                                <input id="fullName" type="text" placeholder="Name" required/>
+                            </div>
+
+                            <div>        
+                                <label for="email">Email Address:</label>
+                                <input id="email" type="email" placeholder="Email" required/>
+                            </div>
+
+                            <div>    
+                                <label for="where">Where did you hear from us?</label>
+                                <select id="where" required>
+                                    <option value="">Plase Choose:</option>
+                                    <option value="friends">Friend and Family</option>
+                                    <option value="youtube">Youtube</option>
+                                    <option value="podcast">PodCast</option>
+                                    <option value="facebook">Facebook Ad</option>
+                                    <option value="other">Others</option>
+                                </select>
+                            </div>
+
+                            <button class="Button FormButton">Sign Up Now!</button>
+                        </form>
+                    </div>
                     <div class="CTAImgBox" role="img" aria-label="Woman Enjoying Food"></div>
                 </div>
             </div>
         </section>
-
     </main>
+
+    <footer class="Footer">
+        <div class="Container Grid Grid5Cols">
+            <div class="FooterLogo">
+                <a href="#" class="FooterLogoLink">
+                    <img class="Logo" src="img/omnifood-logo.png" alt="Omnifood Logo"/>
+                </a>
+
+                <p class="Copyright">Copyright &copy; 2027 by Omnifood Inc.</p>
+                <p>All rights reserved.</p>
+            </div>
+            <div class="FooterAdress">
+                <p class="FooterHeading">Contact</p>
+                <address class="Contacts">
+                    <p>Address: 623 Harrison St., 2nd Floor, San Francisco, CA 94107</p>
+                        <p>
+                            <a href="tel:415-201-6370">415-201-6370</a></br>
+                            <a href="mailto:hello@omnifood.com">hello@omnifood.com</a>
+                        </p>
+                    </p>
+                </address>
+            </div>
+            <nav class="FooterNav">
+                <p class="FooterHeading">Account</p>
+                <ul>
+                    <li><a href="#">Create account</a></li>
+                    <li><a href="#">Sign in</a></li>
+                    <li><a href="#">iOS app</a></li>
+                    <li><a href="#">Android app</a></li>
+                </ul>
+
+            </nav>
+            <nav class="FooterNav">Nav 2</nav>
+            <nav class="FooterNav">Nav 3</nav>
+        </div>
+    </footer>
 
 </body>
 </html>
