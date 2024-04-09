@@ -1,3 +1,72 @@
 .Footer{
-    padding: 9.6rem 0;
+    padding: 12.8rem 0 9.6rem 0;
+    border-top: 1px solid #eee;
+}
+
+.GridFooter{
+    grid-template-columns: 1.6fr 1.5fr 1fr 1fr 1fr;
+}
+
+.FooterLogoLink{
+    display: block;
+    margin-bottom: 3.2rem; 
+}
+
+.FooterLogo{
+    display: flex;
+    flex-direction: column;
+}
+
+.SocialLinks{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+}
+
+.SocialIcon{
+    height: 2.4rem;
+    width: 2.4rem;
+}
+
+.Copyright{
+    font-size: 1.4rem;
+    color: #767676;
+    line-height: 1.6;
+    margin-top: auto;
+}
+
+.FooterHeading{
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-bottom: 2.4rem;
+}
+
+.Contacts{
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+.Address{
+    margin-bottom: 2.4rem;
+}
+
+.FooterNav{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.FooterLink:link,
+.FooterLink:visited{
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: #767676;
+    transition: all 0.3s;
+}
+
+.FooterLink:hover,
+.FooterLink:active{
+    color: #555
 }

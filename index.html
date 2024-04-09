@@ -26,14 +26,12 @@
     <link rel="stylesheet" href="css/pricing.css">
     <link rel="stylesheet" href="css/cta.css">
     <link rel="stylesheet" href="css/footer.css">
-
+    <link rel="stylesheet" href="css/queries.css">
 
 </head>
 <body>
     <header class="Header">
-        <a href="#"></a>
-            <img class="Logo" src="img/omnifood-logo.png" alt="Omnifood Logo"/>
-        </a>
+        <img class="Logo" src="img/omnifood-logo.png" alt="Omnifood Logo"/>
         <nav class="MainNav">
             <ul class="MainNavList">
                 <li><a class="MainNavlink" href="#">Section 1</a></li>
@@ -417,38 +415,62 @@
     </main>
 
     <footer class="Footer">
-        <div class="Container Grid Grid5Cols">
+        <div class="Container Grid GridFooter">
             <div class="FooterLogo">
                 <a href="#" class="FooterLogoLink">
                     <img class="Logo" src="img/omnifood-logo.png" alt="Omnifood Logo"/>
                 </a>
 
-                <p class="Copyright">Copyright &copy; 2027 by Omnifood Inc.</p>
-                <p>All rights reserved.</p>
+                <ul class="SocialLinks">
+                    <li><a class="FooterLink" href="#"><ion-icon class="SocialIcon" name="logo-instagram"></ion-icon></a></li>
+                    <li><a class="FooterLink" href="#"><ion-icon class="SocialIcon" name="logo-facebook"></ion-icon></a></li>
+                    <li><a class="FooterLink" href="#"><ion-icon class="SocialIcon" name="logo-twitter"></ion-icon></a></li>
+                </ul>
+
+                <p class="Copyright">Copyright &copy; 2027 by Omnifood Inc.</br>
+                All rights reserved.</p>
             </div>
+
             <div class="FooterAdress">
                 <p class="FooterHeading">Contact</p>
                 <address class="Contacts">
-                    <p>Address: 623 Harrison St., 2nd Floor, San Francisco, CA 94107</p>
+                    <p class="Address">Address: 623 Harrison St., 2nd Floor, San Francisco, CA 94107</p>
                         <p>
-                            <a href="tel:415-201-6370">415-201-6370</a></br>
-                            <a href="mailto:hello@omnifood.com">hello@omnifood.com</a>
+                            <a class="FooterLink" href="tel:415-201-6370">415-201-6370</a></br>
+                            <a class="FooterLink" href="mailto:hello@omnifood.com">hello@omnifood.com</a>
                         </p>
                     </p>
                 </address>
             </div>
-            <nav class="FooterNav">
-                <p class="FooterHeading">Account</p>
-                <ul>
-                    <li><a href="#">Create account</a></li>
-                    <li><a href="#">Sign in</a></li>
-                    <li><a href="#">iOS app</a></li>
-                    <li><a href="#">Android app</a></li>
-                </ul>
 
+            <nav class="NavColumn">
+                <p class="FooterHeading">Account</p>
+                <ul class="FooterNav">
+                    <li><a class="FooterLink" href="#">Create account</a></li>
+                    <li><a class="FooterLink" href="#">Sign in</a></li>
+                    <li><a class="FooterLink" href="#">iOS app</a></li>
+                    <li><a class="FooterLink" href="#">Android app</a></li>
+                </ul>
             </nav>
-            <nav class="FooterNav">Nav 2</nav>
-            <nav class="FooterNav">Nav 3</nav>
+
+            <nav class="NavColumn">
+                <p class="FooterHeading">Company</p>
+                <ul class="FooterNav">
+                    <li><a class="FooterLink" href="#">About OminFood</a></li>
+                    <li><a class="FooterLink" href="#">For Business</a></li>
+                    <li><a class="FooterLink" href="#">Cooking Partners</a></li>
+                    <li><a class="FooterLink" href="#">Carreers</a></li>
+                </ul>
+            </nav>
+            
+            <nav class="NavColumn">
+                <p class="FooterHeading">Resources</p>
+                <ul class="FooterNav">
+                    <li><a class="FooterLink" href="#">Recipe directory</a></li>
+                    <li><a class="FooterLink" href="#">Help center</a></li>
+                    <li><a class="FooterLink" href="#">Privacy & terms</a></li>
+                </ul>
+            </nav>
         </div>
     </footer>
 
