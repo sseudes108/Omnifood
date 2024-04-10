@@ -1,6 +1,7 @@
 /*1rem(% of the font) = 1em \\ 1em = 16px (actual font size of the browser*/
 
 /* Bellow 1344px */
+/* 84em = 1344 / 16 */
 @media(max-width: 84em){
     .Hero{
         max-width: 120rem;
@@ -49,5 +50,66 @@
 
     .TestimonialsConteiner{
         padding: 9.6rem 3.2rem;
+    }
+}
+
+/* Bellow 944px */
+@media(max-width: 59em){
+    html{
+        /* 8px / 16 = 0.5 = 50% */
+        font-size: 50%;
+    }
+
+    .Hero{        
+        grid-template-columns: 1fr;
+        padding: 0 8rem;
+        gap: 6.4rem;
+    }
+
+    .HeroImg{
+        width: 60%;
+    }
+
+    .HeroTextBox,
+    .HeroImgBox{
+        text-align: center;
+    }
+
+    .DeliveredMeals{
+        justify-content: center;
+        margin-top: 3.2rem;
+    }
+
+    .Logos img{
+        height: 2.4rem
+    }
+
+    .StepNumber{
+        font-size: 7.4rem;
+    }
+
+    .MealContent{
+        padding: 1.8rem 3.2rem 3.2rem 3.2rem;
+    }
+
+    .SectionTestimonials{
+        grid-template-columns: 1fr;
+    }
+
+    .Gallery{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .CTA{
+        grid-template-columns: 3fr 2fr;
+    }
+
+    .CTAForm{
+        grid-template-columns: 1fr;
+    }
+
+    .FormButton{
+        margin-top: 3rem;
     }
 }
